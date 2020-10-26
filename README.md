@@ -2,15 +2,6 @@
 
 Repo explaining Tic Tac Toe for andrewemcmanus
 
-```javascript
-const handleWin = (letter) => {
-  gameIsLive = false;
-  if (letter === "x") {
-    statusDiv.innerHTML = `${letterToSymbol(letter)} has won!`;
-  } else {
-    statusDiv.innerHTML = `<span>${letterToSymbol(letter)} has won!</span>`;
-  }
-};
 ```
 ## Steps to install on local computer
 1. Go [repo](https://github.com/andrewemcmanus) 
@@ -24,52 +15,7 @@ git clone https://github.com/andrewemcmanus
 ```text
 open index.html
 ```
-# CSS Code:
-```css
-.grid {
-    background-color: salmon;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 15px;
-    margin-top: 50px;
-}
-```
-#HTML:
-```html
-<div class="grid">
-    <div class="box" id="box-1"></div>
-    <div class="box" id="box-2"></div>
-    <div class="box" id="box-3"></div>
-    <div class="box" id="box-4"></div>
-    <div class="box" id="box-5"></div>
-    <div class="box" id="box-6"></div>
-    <div class="box" id="box-7"></div>
-    <div class="box" id="box-8"></div>
-    <div class="box" id="box-9"></div>
-</div>
-```
-#table:
-| functions | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-## Functions:
-| functions | Description |
-| ----------- | ----------- |
-| arrayEquals | Title |
-| checkWinner | Text |
-| fillSquareOne | Text |
-| fillSquareTwo | Text |
-| fillSquareThree | Text |
-| fillSquareFour | Text |
-| fillSquareFive | Text |
-| fillSquareSix | Text |
-| fillSquareSeven | Text |
-| fillSquareEight | Text |
-| fillSquareNine | Text |
-
+## javascript:
 ```javascript
 // callback functions:
 function arrayEquals(a, b) {
@@ -203,3 +149,85 @@ function fillSquareNine () {
     return turn;
 }
 ```
+
+
+# CSS Code:
+```css
+body{
+  margin:0px;
+  padding:0px;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+}
+
+.row {
+  position: relative;                                           
+}
+.square {
+                   /* flex: 0 0 32%;  don't grow, don't shrink, width */
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-bottom: 5px;
+  background-color: #999;
+  text-align: center;
+}
+```
+#HTML:
+```html
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tic tac toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <h1>tic tac toe</h1>
+  <div class="grid">
+    <div class="row">
+      <div class="square" id="1"></div>
+      <div class="square" id="2"></div>
+      <div class="square" id="3"></div>
+    </div>
+    <div class="row">
+      <div class="square" id="4"></div>
+      <div class="square" id="5"></div>
+      <div class="square" id="6"></div>
+    </div>
+    <div class="row">
+      <div class="square" id="7"></div>
+      <div class="square" id="8"></div>
+      <div class="square" id="9"></div>
+    </div>
+    
+
+  </div>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
+```
+#table:
+| functions | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+## Functions:
+| functions | Description |
+| ----------- | ----------- |
+| arrayEquals | Title |
+| checkWinner | Text |
+| fillSquareOne | Text |
+| fillSquareTwo | Text |
+| fillSquareThree | Text |
+| fillSquareFour | Text |
+| fillSquareFive | Text |
+| fillSquareSix | Text |
+| fillSquareSeven | Text |
+| fillSquareEight | Text |
+| fillSquareNine | Text |
+
