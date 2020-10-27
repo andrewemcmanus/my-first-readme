@@ -17,6 +17,28 @@ git clone https://github.com/andrewemcmanus
 ```text
 open index.html
 ```
+# table:
+| functions | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+## Functions:
+| functions | Description |
+| ----------- | ----------- |
+| arrayEquals | compares two arrays |
+| checkWinner | checks player choices against winning combinations |
+| fillSquareOne | adds X or O to square |
+| fillSquareTwo |                       |
+| fillSquareThree |                     |
+| fillSquareFour |                      |
+| fillSquareFive |                      |
+| fillSquareSix |                       |
+| fillSquareSeven |                     |
+| fillSquareEight |                     |
+| fillSquareNine |                      |
+
+
 ## javascript:
 ```javascript
 // callback functions:
@@ -212,24 +234,3 @@ h1 {
 </body>
 </html>
 ```
-# table:
-| functions | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-## Functions:
-| functions | Description |
-| ----------- | ----------- |
-| arrayEquals | compares two arrays |
-| checkWinner | checks player choices against winning combinations |
-| fillSquareOne | adds X or O to square |
-| fillSquareTwo |                       |
-| fillSquareThree |                     |
-| fillSquareFour |                      |
-| fillSquareFive |                      |
-| fillSquareSix |                       |
-| fillSquareSeven |                     |
-| fillSquareEight |                     |
-| fillSquareNine |                      |
-
