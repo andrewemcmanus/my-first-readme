@@ -1,6 +1,7 @@
 # My First README
 
 Repo explaining Tic Tac Toe for andrewemcmanus
+**** CSS and HTML will be revised later ****
 
 ```
 ## Steps to install on local computer
@@ -151,7 +152,7 @@ function fillSquareNine () {
 ```
 
 
-# CSS Code:
+# CSS Code (to be revised:
 ```css
 body{
   margin:0px;
@@ -176,7 +177,7 @@ h1 {
   text-align: center;
 }
 ```
-#HTML:
+# HTML (to be revised:
 ```html
 <html lang="en">
 <head>
@@ -210,7 +211,7 @@ h1 {
 </body>
 </html>
 ```
-#table:
+# table:
 | functions | Description |
 | ----------- | ----------- |
 | Header | Title |
@@ -219,15 +220,15 @@ h1 {
 ## Functions:
 | functions | Description |
 | ----------- | ----------- |
-| arrayEquals | Title |
-| checkWinner | Text |
-| fillSquareOne | Text |
-| fillSquareTwo | Text |
-| fillSquareThree | Text |
-| fillSquareFour | Text |
-| fillSquareFive | Text |
-| fillSquareSix | Text |
-| fillSquareSeven | Text |
-| fillSquareEight | Text |
-| fillSquareNine | Text |
+| arrayEquals | compares two arrays |
+| checkWinner | checks player choices against winning combinations |
+| fillSquareOne | adds X or O to square |
+| fillSquareTwo |                       |
+| fillSquareThree |                     |
+| fillSquareFour |                      |
+| fillSquareFive |                      |
+| fillSquareSix |                       |
+| fillSquareSeven |                     |
+| fillSquareEight |                     |
+| fillSquareNine |                      |
 
