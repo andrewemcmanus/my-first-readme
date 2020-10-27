@@ -1,7 +1,8 @@
 # My First README
 
-Repo explaining Tic Tac Toe for andrewemcmanus
 **** CSS and HTML will be revised later ****
+
+Repo explaining Tic Tac Toe for andrewemcmanus
 
 ```
 ## Steps to install on local computer
@@ -152,7 +153,7 @@ function fillSquareNine () {
 ```
 
 
-# CSS Code (to be revised:
+# CSS (to be revised):
 ```css
 body{
   margin:0px;
@@ -177,7 +178,7 @@ h1 {
   text-align: center;
 }
 ```
-# HTML (to be revised:
+# HTML (to be revised):
 ```html
 <html lang="en">
 <head>
