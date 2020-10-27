@@ -17,11 +17,6 @@ git clone https://github.com/andrewemcmanus
 ```text
 open index.html
 ```
-# table:
-| functions | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
 
 ## Functions:
 | functions | Description |
